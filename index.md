@@ -1,8 +1,3 @@
----
-layout: page
-title: Home
----
-
 # Documentation v1
 
 <ul>
