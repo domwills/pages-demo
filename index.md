@@ -1,10 +1,11 @@
-# Documentation v1
-
 <ul>
 {% for page in site.pages %}
-  <li>
-    <a href="{{ page.url | relative_url {{ page.title }}
-    </a>
-  </li>
+  {% if page.path contains 'pages/' %}
+    <li>
+      {{ page.url | relative_url }}
+        {{ page.name | replace: '.md', '' }}
+      </a>
+    </li>
+  {% endif %}
 {% endfor %}
 </ul>
