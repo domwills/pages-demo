@@ -1,12 +1,12 @@
-{{ site.pages.size }}
+{{ site.docs.size }}
 
 
 <ul>
-{% for page in site.pages %}
-  {% if page.path contains 'pages/' %}
+{% for doc in site.docs %}
+  {% if doc.path contains 'docs/' %}
     <li>
-      {{ page.url | relative_url }}
-        {{ page.name | replace: '.md', '' }}
+      {{ doc.url | relative_url }}
+        {{ doc.name | replace: '.md', '' }}
       </a>
     </li>
   {% endif %}
