@@ -3,7 +3,7 @@ layout: page
 title: Home
 ---
 
-# Documentation
+# Documentation v1
 
 <ul>
 {% for doc in site.docs %}
