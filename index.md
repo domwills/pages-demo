@@ -1,6 +1,15 @@
-# My Documentation
+---
+layout: page
+title: Home
+---
 
-## Pages
+# Documentation
 
-- [Getting Started](pages/getting-started.md)
-- standards.html
+<ul>
+{% for doc in site.docs %}
+  <li>
+    <a href="{{ doc.url | relative_url {{ doc.title }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
