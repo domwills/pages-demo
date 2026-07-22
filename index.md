@@ -2,5 +2,5 @@
 
 ## Pages
 
-- getting-started.html
+- [Getting Started](pages/getting-started.md)
 - standards.html
