@@ -1,2 +1,5 @@
-theme: jekyll-theme-cayman
 title: My Documentation
+theme: minima
+
+minima:
+  skin: dark
