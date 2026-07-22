@@ -1,9 +1,9 @@
 # Documentation v1
 
 <ul>
-{% for doc in site.docs %}
+{% for page in site.pages %}
   <li>
-    <a href="{{ doc.url | relative_url {{ doc.title }}
+    <a href="{{ page.url | relative_url {{ page.title }}
     </a>
   </li>
 {% endfor %}
