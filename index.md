@@ -1,3 +1,6 @@
+{{ site.pages.size }}
+
+
 <ul>
 {% for page in site.pages %}
   {% if page.path contains 'pages/' %}
